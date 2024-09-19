@@ -1,0 +1,142 @@
+.headown{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: #bd851c;
+    z-index: 0;
+    margin-top: 500px;
+    height: 300px;
+    top: 230px;
+}
+
+.downtext{
+    z-index: 2;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.sociallist {
+    list-style: none;
+    display: flex;
+    gap: 16px; 
+    padding: 0;
+    margin: 0;
+}
+.social {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.containers {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.downtext {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.centre {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px; 
+}
+.intro, .charbox {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+    position: relative; 
+    z-index: 2;
+}
+.charbox{
+    justify-content:flex-start;
+    margin-left: 100px;
+    width: 250px;
+    height: 100px;
+
+}
+.intro{ 
+    margin-left: 100px;
+     justify-content: flex-start;
+}
+.intro {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.intro-item {
+    margin-bottom: 20px; 
+}
+
+.intro h4, h5{
+    margin: 0; 
+}
+
+.intro h4{
+    font-family: bebasneue;
+    font-size: 30px;
+}
+.intro h5{
+    font-size: 30px;
+}
+.charbox{
+    display: flex;
+ flex-direction: column; 
+ align-items: flex-end;
+    padding: 20px;
+    justify-content: flex-end;
+    bottom: 40px;
+}
+.charbox h4 {
+    font-family: bebasneue;
+    font-size:30px;
+}
+.charbox button{
+   background-color: #916515fd;
+}
+.oursocial h4{
+    font-family: bebasneue;
+    font-size: 30px;
+}
+
+.oursocial {
+    position: absolute;
+    top: 97%; 
+    left: 50%; 
+    transform: translateX(-15%); 
+    z-index: 2;
+    flex-direction: column;
+}
+
+.oursocial img{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.oursociallist{
+        list-style: none;
+        display: flex;
+        gap: 16px; 
+        padding: 0;
+        margin: 0;
+}
+.oursocial li{
+    font-size: 30px;
+}
+a{
+    font-family: bebasneue;
+    color: black;
+
+}

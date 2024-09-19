@@ -1,0 +1,19 @@
+@import url("/public/css/header.css");
+@import url("/public/css/section1.css");
+@import url("/public/css/assistance.css");
+@import url("/public/css/down.css");
+@font-face{
+    font-family: "bebasneue";
+    src: url("/public/assets/fonts/bebasneue.ttf");
+}
+@font-face{
+    font-family:"coffeesoda";
+    src:url("/public/assets/fonts/CoffeeSoda.ttf");
+}
+:root{
+    --base-color: #403520;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}

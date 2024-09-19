@@ -1,0 +1,42 @@
+.placeas{
+    justify-content: flex-start;
+    display: block;
+    margin-top: 30px;
+    padding: 0;
+    
+}
+.placeas li {
+    display: inline-block;
+    margin-right: 10px; 
+    bottom: 20px;
+}
+.paragraph{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    flex-direction: column;
+    top: 30px;
+}
+h1.top {
+    margin-bottom: 10px;
+}
+.top{
+    font-size: 60px;
+    color: rgb(94, 48, 18); 
+    font-family: coffeesoda;
+}
+.ashelp{
+    top: 250px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.ass{
+    font-family: bebasneue;
+    color: rgb(64, 64, 119);
+    font-size: 20px;
+}
